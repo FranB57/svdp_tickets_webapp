@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* SVDP Brand Colors */
+@theme {
+  /* Vincentian Blue - Primary brand color */
+  --color-svdp-blue: #006BA8;
+  --color-svdp-blue-light: #0080c9;
+  --color-svdp-blue-dark: #005588;
+  --color-svdp-blue-50: #e6f3fa;
+  --color-svdp-blue-100: #cce7f5;
+  --color-svdp-blue-200: #99cfeb;
+  --color-svdp-blue-300: #66b7e0;
+  --color-svdp-blue-400: #339fd6;
+  --color-svdp-blue-500: #006BA8;
+  --color-svdp-blue-600: #005c91;
+  --color-svdp-blue-700: #004d7a;
+  --color-svdp-blue-800: #003e63;
+  --color-svdp-blue-900: #002f4c;
+}
+
+/* Base styles for SVDP Event Tracker */
+body {
+  @apply min-h-screen bg-gray-50 text-gray-900 antialiased;
+}
+
+#root {
+  @apply min-h-screen;
+}
