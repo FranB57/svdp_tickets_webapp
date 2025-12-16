@@ -91,8 +91,11 @@ function AppRoutes() {
 }
 
 export default function App() {
+  // Use basename for GitHub Pages deployment
+  const basename = import.meta.env.BASE_URL;
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <AppRoutes />
     </BrowserRouter>
   );
